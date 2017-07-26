@@ -1,0 +1,2 @@
+# ptcshrc
+tcshrc
