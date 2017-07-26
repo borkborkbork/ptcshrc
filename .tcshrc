@@ -1,0 +1,14 @@
+set autolist
+set correct=cmd
+set prompt=%B`hostname --short`:%~%\#%B%u
+#set prompt=%B`date +%R`-%h:%~%\#%B%u
+set filec
+set fignore=(.o)
+set noclobber
+set history = 50
+set notify
+alias .. 'cd ..'
+alias cls 'clear'
+alias ls 'ls -CFs'
+set path=($path /usr/sbin /usr/bin /usr/local/bin /opt/eis_cm/bin ~/bin)
+setenv TERM vt100
